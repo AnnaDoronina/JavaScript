@@ -24,6 +24,7 @@
 'use strict';
 
 const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
+
 const personalMovieDB = {
     count: numberOfFilms,
     movies: {},
@@ -31,6 +32,7 @@ const personalMovieDB = {
     genres: [],
     privat: false,
 };
+
 const a = prompt('Один из последних просмотренных фильмов?', ''),
       b = prompt('На сколько оцените его?'),
       c = prompt('Один из последних просмотренных фильмов?', ''),
